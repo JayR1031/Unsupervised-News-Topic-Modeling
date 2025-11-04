@@ -11,6 +11,22 @@
 
 This project demonstrates the application of **unsupervised learning techniques** to distinguish between fake and real news articles. By leveraging natural language processing and machine learning algorithms, we extract meaningful patterns and topics from news text without requiring pre-labeled training data.
 
+---
+
+<div align="center">
+
+## 🔗 View the full Colab notebook here
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vqYqo3xd7RCXkrmxMOihqekBznQ8fZb2?usp=sharing)
+
+### 📓 **[Click here to access the interactive notebook](https://colab.research.google.com/drive/1vqYqo3xd7RCXkrmxMOihqekBznQ8fZb2?usp=sharing)**
+
+*Interactive notebook with full code, visualizations, and detailed analysis*
+
+</div>
+
+---
+
 ### 🌟 Key Features
 
 - **🔬 LDA Topic Modeling**: Latent Dirichlet Allocation for discovering hidden thematic structures
@@ -71,24 +87,20 @@ pip install pandas numpy scikit-learn gensim nltk matplotlib seaborn wordcloud
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/JayR1031/Unsupervised-News-Topic-Modeling.git
 cd Unsupervised-News-Topic-Modeling
 ```
 
 2. Open the Colab notebook:
-- Click on the Colab link below
-- Or upload the `.ipynb` file to Google Colab
-
-### 📓 Access the Notebook
-
-**[🔗 Open in Google Colab](COLAB_LINK_HERE)**
-
-*Interactive notebook with full code, visualizations, and detailed analysis*
+   - Click on the Colab link above
+   - Or upload the `.ipynb` file to Google Colab
 
 ## 📊 Dataset
 
 This project uses a comprehensive news dataset containing:
+
 - **Fake news articles**: Misinformation and fabricated stories
 - **Real news articles**: Verified journalism from reputable sources
 - **Text features**: Article titles, content, and metadata
